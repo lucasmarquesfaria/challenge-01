@@ -15,9 +15,9 @@ type Story = StoryObj<typeof Sample>;
 
 const template: Story = {
   render: (args) => (
-    <>
+    <div style={{ maxWidth: '1200px' }}>
       <Sample {...args} />
-    </>
+    </div>
   ),
 };
 

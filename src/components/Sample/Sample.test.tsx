@@ -1,10 +1,8 @@
 import { render, screen } from '@testing-library/react';
 
-import { Sample, SampleProps } from '@/components/Sample';
+import { sampleMock as mock } from './Sample.mock';
 
-const mock: SampleProps = {
-  heading: 'Loren ipsum dolor',
-};
+import { Sample } from '@/components/Sample';
 
 describe('<Sample />', () => {
   it('should render heading', () => {
@@ -15,5 +13,15 @@ describe('<Sample />', () => {
     });
 
     expect(heading).toBeInTheDocument();
+  });
+
+  it('should render image', () => {
+    render(<Sample {...mock} />);
+
+    const img = screen.getByRole('img', {
+      name: mock.img.alt,
+    });
+
+    expect(img).toHaveAttribute('src', mock.img.src);
   });
 });

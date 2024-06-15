@@ -8,10 +8,15 @@
     "build-storybook": "storybook build",
     "dev": "vite",
     "format": "prettier --write \"**/*.{ts,tsx}\"",
+    "check": "prettier --write --ignore-unknown --log-level=warn",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
-    "test": "jest"
+    "test": "jest --passWithNoTests --noStackTrace --runInBand",
+    "test:ci": "npm run test --coverage",
+    "test:staged": "npm run test -- -o",
+    "test:unit": "npm run test -- --watch",
+    "typecheck": "tsc --project tsconfig.json --noEmit"
   },
   "dependencies": {
     "react": "^18.2.0",

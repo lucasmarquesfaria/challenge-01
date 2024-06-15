@@ -1,0 +1,18 @@
+pre-commit:
+  commands:
+    format:
+      run: npm run check {staged_files}
+    linter:
+      run: npm run lint --fix
+    test:
+      run: npm run test:staged
+
+commit-msg:
+  commands:
+    lint-commit-msg:
+      run: npx commitlint --edit
+
+pre-push:
+  commands:
+    test:
+      run: npm run test:ci

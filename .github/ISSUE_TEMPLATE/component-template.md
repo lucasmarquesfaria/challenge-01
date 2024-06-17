@@ -7,6 +7,7 @@ assignees: ''
 
 ---
 
+## Descrição
 Criar o componente `Name`, conforme os requisitos e o design. [Link para o design no Figma](http://example.com)
 
 # Dependências

@@ -31,12 +31,37 @@ Você pode visualizar o layout do projeto, [clicando aqui](https://www.figma.com
 ### Clonando o repositório
 
 ```
-git clone https://github.com/Code-Challenges-Brasil/FRONT-CHALLENGE-001.git
+git clone https://github.com/code-challenges-org/FRONT-challenge-001.git
 ```
 
-### Criando repositório na sua conta do Github
+### Configurando o seu repositório
 
-Crie um repositório em sua conta do Github e faça push do código clonado para o repositório recém criado.
+1.Crie um repositório em sua conta do Github.
+
+> [!CAUTION]
+> Deixe seu repositório como público para que outras pessoas possam acessar para fazer Code Review.
+
+![image](https://github.com/code-challenges-org/FRONT-challenge-001/assets/59663666/765862a0-b208-4516-a6fa-e91d62a2c8a2)
+
+2. Rode o seguinte comando no repositório clonado
+
+```
+git remote rm origin
+```
+
+3. Rode o comando fornecido pelo Github ao criar o repositório
+
+![Group 2516](https://github.com/code-challenges-org/FRONT-challenge-001/assets/59663666/31e46393-c90e-4a6c-b3e5-c62db0fd6c58)
+
+4. Faça push para o repositório criado rodando o seguinte comando
+
+```
+git push origin main
+```
+
+5. Pronto! Repositório configurado.
+
+![image](https://github.com/code-challenges-org/FRONT-challenge-001/assets/59663666/4a1ec83c-d89c-4aaa-9ecc-c0705305e032)
 
 ### Copiando issues
 

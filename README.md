@@ -34,9 +34,9 @@ Você pode visualizar o layout do projeto, [clicando aqui](https://www.figma.com
 git clone https://github.com/code-challenges-org/FRONT-challenge-001.git
 ```
 
-### Configurando o seu repositório
+### Configurando seu repositório
 
-1.Crie um repositório em sua conta do Github.
+1. Crie um repositório em sua conta do Github.
 
 > [!CAUTION]
 > Deixe seu repositório como público para que outras pessoas possam acessar para fazer Code Review.
@@ -94,9 +94,9 @@ npm i
 
 ### Rodando os testes
 
-1. `npm run test:unit`: Roda os testes no modo `watch`
-2. `npm run test`: Roda todos os testes
-3. `npm run test:ci`: Roda a cobertura dos testes
+- `npm run test:unit`: Roda os testes no modo `watch`
+-  `npm run test`: Roda todos os testes
+- `npm run test:ci`: Roda a cobertura dos testes
 
 > [!CAUTION]
 > Antes de fazer push rode o seguinte comando para evitar erros.

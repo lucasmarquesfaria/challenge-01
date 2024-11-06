@@ -65,13 +65,13 @@ git push origin main
 
 ### Copiando issues
 
-As issues com todos os requisitos já estão criadas, você pode acessar elas [clicando aqui](https://github.com/Code-Challenges-Brasil/FRONT-CHALLENGE-001/issues).
+As issues com todos os requisitos já estão criadas, você pode acessar elas [clicando aqui](https://github.com/code-challenges-org/FRONT-challenge-001/issues).
 <br />
 Você deve copiar todas elas para as issues do repositório da sua conta, para que você possa linkar elas ao fazer Pull Request.
 
 ### Versão do Node
 
-Você pode verificar a versão mínima necessária do Node para rodar o projeto [clicando aqui](https://github.com/Code-Challenges-Brasil/FRONT-CHALLENGE-001/blob/main/.nvmrc) ou acessando o arquivo `.nvmrc`.
+Você pode verificar a versão mínima necessária do Node para rodar o projeto [clicando aqui](https://github.com/code-challenges-org/FRONT-challenge-001/blob/main/.nvmrc) ou acessando o arquivo `.nvmrc`.
 
 ### Instalando dependências
 

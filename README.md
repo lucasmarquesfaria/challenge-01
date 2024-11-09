@@ -1,6 +1,6 @@
 <img src="https://sa-east-1.graphassets.com/clvfs1ld70bcs07ke07bkdxol/clxcfha33086207lv0j1wex8v" alt="Code Challenges" />
 
-# Frontend Developer - Challenge 001
+# Frontend Developer - Challenge 001 - Lucas Marques
 
 Nesse desafio você deve construir uma aplicação que permita que os usuários possam encontrar novas pessoas, utilizando ferramentas modernas e boas práticas para criar um código de alta qualidade e escalabilidade.
 
